@@ -209,7 +209,7 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:23.0.1'
+  compile 'androidx.core:core:1.0.0'
   compile 'com.facebook.react:react-native:0.19.+'
 + compile project(':react-native-keychain')
 }
